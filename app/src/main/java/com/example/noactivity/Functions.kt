@@ -18,3 +18,11 @@ fun withNamedArgumnet(name: String, age: Int) {
     println("== withNamedArgument ==")
     println("Hello, $name! You are $age years old.")
 }
+
+//default parameter value
+//default parameter value merupakan cara untuk memberikan nilai defatult pada parameter fungsi
+fun withDefaultParameter(name: String = " Indra", age: Int) {
+    println()
+    println("== withDefaultParameter ==")
+    println("Hello, $name! You are $age years old.")
+}
